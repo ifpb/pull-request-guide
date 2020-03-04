@@ -35,13 +35,13 @@ $ git config user.email lucachaves@gmail.com
 **PASSO 5** - Depois que o clone foi configurado é possível iniciar as sugestões de alteração, neste exemplo será criado o arquivo `users/luiz.chaves.txt` contendo o nome completo do usuário:
 
 ```
-$ echo "Luiz Carlos Rodrigues Chaves" > luiz.chaves.txt
+$ echo "Luiz Carlos Rodrigues Chaves" > users/luiz.chaves.txt
 ```
 
 **PASSO 6** - Ao concluir a sugestão de alteração, registre no git as mudanças realizadas (delta):
 
 ```
-$ git add luiz.chaves.txt
+$ git add users/luiz.chaves.txt
 $ git commit -m 'descrição da muda'
 ```
 
